@@ -1,6 +1,6 @@
 function Button1(el) {
 	//el.style.background = "black";
-	//el.style.color = "yellow"sa
+	//el.style.color = "yellow"
 	var buttonk = Math.floor(Math.random( ) * (3 - 1 + 1)) + 1
 	if (buttonk == 1) {
 		document.write('<img src="https://raw.githubusercontent.com/strolorts/strolorts.github.io/main/1.PNG">');
