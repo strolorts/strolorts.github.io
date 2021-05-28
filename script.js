@@ -1,6 +1,6 @@
 function Button1() {
 	$("#Button1").text('NEW AMOGUS');
-	$("div.mb-5").append('<img id = "Image1">');
+	$("main").append('<img id = "Image1">');
 	$("body").append('<audio id = "Audio1">');
 	$("#Image1").attr("width", "900").attr("height", "700")
 	var buttonk = Math.floor(Math.random( ) * 9)
@@ -41,4 +41,16 @@ function Button1() {
 		$("#name").text("AMOGUS:6");
 	}
 	$("#Audio1").attr("src", "https://my-files.su/Save/8inabz/SUS%20-%20AMOGUS.mp3").attr("autoplay", "autoplay").attr("loop", "loop");
+}
+
+function Button2() {
+	$("div.mb-5").append('<p><h4 id = "Button2_name"></h4></p>');
+	$('#Button2_name').text(prompt('AMOGUS:Клавиатура'));
+	$("#name").text("AMOGUS:Клавиатура");
+}
+
+function Button3() {
+	$("#Audio1").attr("src", "https://my-files.su/Save/8inabz/SUS%20-%20AMOGUS.mp3").attr("autoplay", "autoplay").attr("loop", "loop");
+	navigator.clipboard.writeText("Red 🔴 🔴 📛 sus 💦 💦 💦. Red 🔴 🔴 🔴 suuuus. I 👁 👁👄 👁 said 💬 🤠🗣 💬👱🏿💦 red 🎈🔴 👹 🔴, sus 💦 💦 💦, hahahahaha 🤣 🤣 🤣. Why 👦😡🤔 🤔 🤔 arent you 👉 👉😯 👈 laughing 😂 😂 😂? I 👁 👁🍊 👥 just made 👑 👑 👑 a reference 👀👄🙀 👀👄🙀 👀👄🙀 to the popular 😎 👍😁😂 😂 video 📼 📹 📹 game 🎮🍑😰 🎮 🎮! How can you 👉 👈 👈 not laugh 😂😄 😂 😂 at it? Emergeny meeting 🤝👍🤛 💯 🤝! Guys 👨🌈 👦 👨, this here guy 👨 👨 👱🏻👨🏻 doesnt laugh 😂 🤣 ☑😂😅 at my funny ❓😂😃 😃😂 🍺😛😃 Among 💰 💰 💰 Us 👨 👨 👨 memes 🐸 🐸 😂! Lets 🙆 🙆 🙆 beat 👊 ✊👊🏻 😰👊 him 👴 👴 👨 to death ☠ 💀💥❓ 💀! Dead 💀 💀😂 ☠ body 💃 💃 💃 reported 🧐 ☎ 🧐! Skip 🐧 🐧 🏃🏼! Skip 🐧 🐧 🐧! Vote 🔝 🔝 🔝 blue 💎💙🦋 💙 💙! Blue 🔵 💙 💙 was not an impostor 😎 😎 😠. Among 🙆🏽🅰 😂 🙆🏽🅰 us 👨😚 👨 👨 in a nutshell 😠 😠 😠 hahahaha 😂 😂👌👋 😂. What?!");
+	$("#name").text("AMOGUS:Скопировано в буфер обмена");
 }
