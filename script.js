@@ -45,9 +45,8 @@ function Button1() {
 
 function Button2() {
 	$("div.mb-5").append('<p><h4 id = "Button2_name"></h4></p>');
-	$('#Button2_name').text(keyb);
-	alert('тест')
 	var keyb = prompt('AMOGUS:Клавиатура');
+	$('#Button2_name').text(keyb);
 	$("#name").text("AMOGUS:Клавиатура");
 }
 
