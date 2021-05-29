@@ -1,0 +1,35 @@
+
+header {
+	display: flex;
+	justify-content: center;
+}
+.headerlist {
+	display: flex;
+	justify-content: center;
+	list-style: none;
+	margin-top: 20px;
+}
+.headerlist button {
+	background-color: green;
+	border: none;
+	color: white;
+	padding: 5px 20px;
+	text-decoration: none;
+	font-size: 16px;
+
+}
+.iconname span{
+	color: black;
+    font-size: 200%;
+    position: relative; 
+    top: 10px;
+}
+#name {
+	display: flex;
+	justify-content: center; 
+}
+main {
+	display: flex;
+    align-content: center; 
+    justify-content: center; 
+}

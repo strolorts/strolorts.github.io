@@ -44,10 +44,9 @@ function Button1() {
 }
 
 function Button2() {
-	$("div.mb-5").append('<p><h4 id = "Button2_name"></h4></p>');
-	var keyb = prompt('AMOGUS:Клавиатура');
-	$('#Button2_name').text(keyb);
-	$("#name").text("AMOGUS:Клавиатура");
+	$("main").append('<video id = "Video1"></video>');
+	$("#Video1").attr("src", "https://a.uguu.se/kccVzZfW.mp4").attr("controls", "controls");
+	$("#name").text("Смотреть капибара видео без смс и регистрации");
 }
 
 function Button3() {
