@@ -13,9 +13,9 @@ header {
 	background-color: green;
 	border: none;
 	color: white;
-	padding: 5px 20px;
+	padding: auto;
 	text-decoration: none;
-	font-size: 16px;
+	font-size: auto;
 
 }
 .iconname span{
